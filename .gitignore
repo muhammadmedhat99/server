@@ -65,7 +65,6 @@ $RECYCLE.BIN/
 # Logs and databases
 ############################
 
-.tmp
 *.log
 *.sql
 *.sqlite
@@ -80,6 +79,7 @@ $RECYCLE.BIN/
 ssl
 .idea
 nbproject
+node_modules
 public/uploads/*
 !public/uploads/.gitkeep
 
@@ -92,7 +92,6 @@ lcov.info
 pids
 logs
 results
-node_modules
 .node_history
 
 ############################
@@ -106,10 +105,8 @@ coverage
 # Strapi
 ############################
 
-.env
 license.txt
 exports
 *.cache
 dist
 build
-.strapi-updater.json
